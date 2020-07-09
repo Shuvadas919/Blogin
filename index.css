@@ -1,0 +1,357 @@
+
+
+*{margin: 0;padding: 0}
+
+body{
+  font-family: sans-serif,arial;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fix{
+  overflow: hidden;
+}
+
+p{
+  font-weight: normal;
+  line-height: 150%;
+  margin-bottom: 2em;
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 10px;
+}
+
+.full_container{
+  width: 100%;
+}
+
+.container{
+  width: 980px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container_bg{
+  background-color: #292929;
+  overflow: hidden;
+}
+
+.header .logo{
+  float: left;
+}
+
+.header .logo h1{
+  padding:40px;
+  color: #fff;
+  font-family: Lato;
+  font-weight: 40px;
+  font-size: Bold;
+}
+
+.header .menu{
+  float: right;
+}
+
+.header .menu ul{
+  list-style-type: none;
+}
+
+.header .menu ul li{
+  float: left;
+  border-right: 1px solid #1E1E1E;
+}
+
+.header .menu ul li:first-child{
+  border-left: 1px solid #1E1E1E;
+}
+
+.header .menu ul li a{
+  text-decoration: none;
+  font-family: lato;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px 30px;
+  display: block;
+  color: #fff;
+  border-bottom: 5px solid #1E1E1E;
+}
+
+.header .menu ul li a:hover{
+  border-bottom:  5px solid #41C84E;
+  color: #41C84E;
+}
+
+.header .menu ul .active a{
+  border-bottom:  5px solid #41C84E;
+  color: #41C84E;
+}
+
+.container_wrap{
+  overflow: hidden;
+  padding-top: 75px;
+  border-left:  1px solid #E1E0E0;
+  border-right: 1px solid #E1E0E0;
+}
+
+.container .container_wrap .saction{
+  width: 620px;
+  float: left;
+  overflow: hidden;
+  margin-right: 70px;
+}
+
+.saction .left_content{
+  margin-bottom: 80px;
+}
+
+.container .left_content img{
+  width: 625px;
+  height: auto;
+}
+
+.saction .left_content h2{
+  font-family: lato;
+  font-weight: bold;
+  font-size: 28px;
+  color: #4F4E4E;
+  text-transform: uppercase;
+  padding: 15px 15px;
+}
+
+.saction .left_content p{
+  font-family: lato;
+  font-size: 16px;
+  color: #606060;
+  margin-left:15px;
+  padding-top: 20px;
+}
+
+.container .saction .left_content .continue_r{
+  color: #C4CEDD;
+  font-family: lato;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #C2C2C2;
+  border-radius: 23px;
+  margin-left: 20px;
+  padding: 14px 28px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.sidebar {
+  width: 282px;
+  float: right;
+}
+
+.sidebar .aside1{
+  margin-bottom: 60px;
+}
+
+.sidebar .aside1 h3{
+  font-family: lato;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  color: #7F7C7C;
+  background-color: #F8F8F8;
+  border-left: 3px solid #58C93A;
+}
+
+.sidebar .aside1 p{
+  font-family: lato;
+  font-size: 16px;
+  color: #737373;
+  padding-left: 19px;
+  padding-right: 20px;
+  padding-top: 21px;
+}
+
+.sidebar .aside2{
+  overflow: hidden;
+}
+
+.sidebar .aside2 h3{
+  font-family: lato;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  color: #7F7C7C;
+  background-color: #F8F8F8;
+  border-left: 3px solid #58C93A;
+  margin-bottom: 25px;
+}
+
+.sidebar .aside2 .search_box{
+  width:271px;
+  height: 50px;
+  float: right;
+  border: 1px solid #E1E0E0;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 30px;
+
+}
+
+.sidebar .aside2 input[type="text"] ,
+.sidebar .aside3 input[type="email"]{
+  padding-left: 10px;
+}
+
+.container_wrap .sidebar .aside3 h3{
+  font-family: lato;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  color: #7F7C7C;
+  background-color: #F8F8F8;
+  border-left: 3px solid #58C93A;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar .aside3 .email_box{
+  width:271px;
+  height: 50px;
+  float: right;
+  border: 1px solid #E1E0E0;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.sidebar .aside3 {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.sidebar .aside3 input[type="submit"]{
+  float: right;
+  background: url(search_icon.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  text-indent: -9999999px;
+  position: absolute;
+  border: none;
+  top: 83px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.container .container_bottom{
+  width: 963px;
+  height: 41px;
+  border: 1px solid #E1E0E0;
+  padding-top: 20px;
+  padding-left: 15px;
+  border-bottom: none;
+}
+
+.container .container_bottom a{
+  text-decoration: none;
+}
+
+.container .container_bottom .previous{
+    color: #818181;
+    font-family: lato;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+}
+
+.container .container_bottom .next{
+    color: #818181;
+    font-family: lato;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    padding-right: 32px;
+}
+
+.footer_wrap{
+  border-top: 1px solid #E1E0E0;
+
+}
+
+.container .footer{
+  text-align: center;
+  line-height: 56px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container .footer h1{
+  text-align: center;
+  font-family: lato;
+  font-weight: bold;
+  font-size: 40px;
+  color: #292929;
+}
+
+.container .footer p{
+  font-size: 16px;
+  font-family: lato;
+  color: #a6a6a6;
+}
+
+.container .footer ul{
+  list-style-type: none;
+}
+
+.container .footer ul li{
+  display:inline-block;/**li ghulo pasapasi thaktey**/
+  margin: 0 10px;/** majey halka gap deyar jrnno 10px
+  deya hoichy**/
+}
+
+.container .footer ul li.facebook a{
+  background: url("img/fb1.png") no-repeat;
+  display: block;/** img show korbe na jodi block kora
+  na hoi **/
+  width: 40px;
+  height:40px;
+}
+
+.container .footer ul li.facebook:hover a{
+  background: url("img/fb.png") no-repeat;
+}
+
+.container .footer ul li.twiter a{
+  background: url("img/tw.png") no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.container .footer ul li.twiter:hover a{
+  background: url("img/tw1.png") no-repeat;
+}
+
+.container .footer ul li.gplus a{
+  background: url("img/gplus1.png") no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.container .footer ul li.gplus:hover a{
+  background: url("img/gplus.png") no-repeat;
+}
+
+.container .footer ul li.linkedin a{
+  background: url("img/linkedin1.png") no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.container .footer ul li.linkedin:hover a{
+  background: url("img/linkedin.png") no-repeat;
+}
